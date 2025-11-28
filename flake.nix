@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nix-software-center = {
-      url = "github:snowfallorg/nix-software-center";
+      url = "github:mringelborn/nix-software-center";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixos-conf-editor = {
