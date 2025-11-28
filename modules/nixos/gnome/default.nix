@@ -33,7 +33,7 @@ in
       enable = true;
     };
 
-    environment.gnome.excludePackages = mkIf cfg.removeUtils.enable (with pkgs.gnome; [
+    environment.gnome.excludePackages = mkIf cfg.removeUtils.enable (with pkgs; [
       baobab
       cheese
       eog
